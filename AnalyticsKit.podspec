@@ -64,4 +64,6 @@ Pod::Spec.new do |s|
     p.dependency 'AnalyticsKit/Core'
   end
 
+  s.frameworks = ['GoogleAnalytics']
+
 end
