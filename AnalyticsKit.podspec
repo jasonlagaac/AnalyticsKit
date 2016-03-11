@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'GoogleAnalytics' do |ga|
     ga.source_files = 'Providers/Google Analytics/AnalyticsKitGoogleAnalyticsProvider.{h,m}'
-    ga.dependency 'GoogleAnalytics', '~> 3.14.0'
+    ga.dependency 'GoogleAnalytics', '~> 3.0'
     ga.dependency 'AnalyticsKit/Core'
   end
 
@@ -63,7 +63,5 @@ Pod::Spec.new do |s|
     p.dependency 'Parse'
     p.dependency 'AnalyticsKit/Core'
   end
-
-  s.frameworks = ['GoogleAnalytics']
 
 end
